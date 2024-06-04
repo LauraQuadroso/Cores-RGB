@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/rgb.css">
+    <script defer src="./js/rgb.js"></script>
+</head>
+<body>
+
+    <h1>Cores RGB</h1>
+    <h2>Arraste para o lado para definir suas cores!</h2>
+<div class="container">
+    <p> (R) Vermelho  
+        <input oninput="mudacor()" id="red" type="range" min="0" max="255"> 
+        <input class="texto" id="red-value" type="text" readonly>
+    </p>  
+
+    <p> (G) Verde  
+        <input oninput="mudacor()" id="green" type="range" min="0" max="255"> 
+        <input class="texto2" id="green-value" type="text" readonly>
+    </p> 
+
+    <p> (B) Azul  
+        <input oninput="mudacor()" id="blue" type="range" min="0" max="255"> 
+        <input class="texto3" id="blue-value" type="text" readonly>
+    </p>
+ 
+   
+
+</div>
+
+<div class="quadrado"></div>
+   
+</body>
+</html>
